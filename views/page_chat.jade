@@ -1,0 +1,20 @@
+doctype html
+html 
+    head
+        meta(charset='UTF-8')
+        title Real Time Chat
+        link(rel='stylesheet', href='/style.css')
+        script(src='/chat.js')
+        script(src='/socket.io/socket.io.js')
+
+    body
+        .container
+            h1 Real Time Chat
+            #chat
+            .controls
+                span Name : 
+                input#name(type='text')
+                br
+                span Message : 
+                input#msg(type='text')
+                input#send(type='button', value='Send')

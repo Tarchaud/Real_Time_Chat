@@ -1,0 +1,29 @@
+{
+  "name": "real_time_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarchaud/Real_Time_Chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tarchaud/Real_Time_Chat/issues"
+  },
+  "homepage": "https://github.com/Tarchaud/Real_Time_Chat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jade": "^0.29.0",
+    "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
